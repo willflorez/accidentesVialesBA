@@ -1,7 +1,3 @@
-# accidentesVialesBA
-El Observatorio de Movilidad y Seguridad Vial (OMSV), centro de estudios que se encuentra bajo la órbita de la Secretaría de Transporte del Gobierno de la Ciudad Autónoma de Buenos Aires, nos solicita la elaboración de un proyecto de anális de datos, con el fin de generar información que le permita a las autoridades locales tomar medidas para disminuir la cantidad de víctimas fatales de los siniestros viales. Para ello, nos disponibilizan un dataset sobre homicidios en siniestros viales acaecidos en la Ciudad de Buenos Aires durante el periodo 2016-2021. Este dataset se encuentra en formato xlsx y contiene dos hojas llamadas: hechos y víctimas. Asimismo, observarán que incluye otras dos hojas adicionales de diccionarios de datos, que les podrá servir de guía para un mayor entendimiento de la data compartida.
-
-
 # SegundoProyectoIndividualHenry
 <p align="center">
 <img src="https://user-images.githubusercontent.com/67664604/217914153-1eb00e25-ac08-4dfa-aaf8-53c09038f082.png"  height=300>
@@ -17,8 +13,8 @@ El Observatorio de Movilidad y Seguridad Vial (OMSV), centro de estudios que se 
     <li><a href="#pila-de-tecnologías">Pila de Tecnologías</a></li>
     <li><a href="#EDA">EDA</a></li>
     <li><a href="# ESTUDIANDO EL PRIMER KPI">KPI 1</a></li>
-    <li><a href="#ABORDANDO EL SEGUNDO KPI">KPI 1</a></li>
-    <li><a href="#ESTUDIANDO EL TERCER KPI">KPI 1</a></li>
+    <li><a href="#ABORDANDO EL SEGUNDO KPI">KPI 2</a></li>
+    <li><a href="#ESTUDIANDO EL TERCER KPI">KPI 3</a></li>
   </ol>
 </details>
 
@@ -29,7 +25,7 @@ En este proyecto individual como parte de la formación de la carrera de Data Sc
 1. Analizar detalladamente el conjunto de datos para entender la situación problema de la manera correcta, sin conjeturas propias y ceñirme a la realidad que la información entrega.
 2. Crear un dashboard para la presentación del análisis hecho por mi de los datos entregados.
 
-- **Primer acercamiento al conjunto de datos:** El conjunto de datos se encontraba casi listo para trabajar, pocos datos nulos o faltantes, ningún registro duplicado. Existían valores marcados como 'SD', la mayoría los conservé, porque entendí que es un inidicador de la imposibilidad de determinación, por ejemplo, en un accidente de tránsito la edad del fallecido se encuentra sin dato.
+**Primer acercamiento al conjunto de datos:** El conjunto de datos se encontraba casi listo para trabajar, pocos datos nulos o faltantes, ningún registro duplicado. Existían valores marcados como 'SD', la mayoría los conservé, porque entendí que es un inidicador de la imposibilidad de determinación, por ejemplo, en un accidente de tránsito la edad del fallecido se encuentra sin dato.
 
 **Analisis Exploratorio de Datos** El objetivo es entender que conclusiones pueden obtenerse a partir de los datos entregados. Existen columnas que esclarecen la ubicación del accidente, otras que especifican la victima y otras de valor tipo tiempo, abordando todos los detalles del siniestro.
 
