@@ -1,7 +1,5 @@
-# SegundoProyectoIndividualHenry
-<p align="center">
-<img src="https://user-images.githubusercontent.com/67664604/217914153-1eb00e25-ac08-4dfa-aaf8-53c09038f082.png"  height=300>
-</p>
+# Segundo Proyecto Individual Henry
+
 
 ## Índice 
 <!-- TABLA DE CONTENIDO -->
@@ -79,7 +77,13 @@ RESPECTO A CANTIDAD DE VICTIMAS:
 
 **6. El paso obligado por la curiosidad es conocer numero de víctimas por año, de esta manera:
 
-![Alt text](image-1.png)
+AAAA	N_VICTIMAS
+0	2016	146
+1	2017	140
+2	2018	149
+3	2019	104
+4	2020	81
+5	2021	97
 
 Creo la columna semestre para considerar el primer KPI (reducir en un 10% la tasa de homicidios en siniestros viales de los últimos seis meses, en CABA, en comparación con la tasa de homicidios en siniestros viales del semestre anterior), el número de fallecidos por semestre acá:
 
@@ -192,7 +196,7 @@ AAAA	N_VICTIMAS	Cambio_Porcentual
 2020	27	        -40.000000
 2021	39	        44.444444
 
-DEL SEGUNDO KPI :  NO SE CUMPLE, LA TASA OBJETIVO ERA DE 33.48 Y SE OBTUVO -47.75% HUBO UN INCREMENTO EN EL NUMERO DE ACCIDENTES.
+DEL SEGUNDO KPI :  NO SE CUMPLE, LA TASA OBJETIVO ERA DE 33.48 % Y SE OBTUVO -47.75% HUBO UN INCREMENTO EN EL NUMERO DE ACCIDENTES.
 
 SE DEFINIO ASI:'Definimos a la cantidad de accidentes mortales de motociclistas en siniestros viales como el número absoluto de accidentes fatales en los que estuvieron involucradas víctimas que viajaban en moto en un determinado periodo temporal. Su fórmula para medir la evolución de los accidentes mortales con víctimas en moto es: (Número de accidentes mortales con víctimas en moto en el año anterior - Número de accidentes mortales con víctimas en moto en el año actual) / (Número de accidentes mortales con víctimas en moto en el año anterior) * 100'
 
@@ -200,12 +204,75 @@ SE DEFINIO ASI:'Definimos a la cantidad de accidentes mortales de motociclistas 
 ## ESTUDIANDO EL TERCER KPI: 
 Reducir en un 5% la cantidad de accidentes mortales de peatones en el último año, en CABA, respecto al año anterior.
 
+**13. Grafico teniendo en cuenta la cantidad de accidentes donde se involucran peatones en el periodo de tiempo estudiado, hallo el porcentaje de hombres y mujeres fallecidos. Abajo una tabla de numero de peatones fallecidos por semestre cada año:
+
+AAAA  Semestre  N_VICTIMAS
+2016         1          26
+2016         2          22
+2017         1          19
+2017         2          30
+2018         1          37
+2018         2          31
+2019         1          20
+2019         2          17
+2020         1          16
+2020         2          20
+2021         1          18
+2021         2          15
+
+Hago un filtro para encontrar el cambio porcentual de la cantidad de accidentes de peatones año a año:
+
+AAAA	Semestre	N_VICTIMAS	Cambio_Porcentual
+2016	1	            26	           NaN
+2016	2	            22	           -15.384615
+2017	1	            19	           -13.636364
+2017	2	            30	           57.894737
+2018	1	            37	           23.333333
+2018	2	            31	           -16.216216
+2019	1	            20	           -35.483871
+2019	2	            17	           -15.000000
+2020	1	            16	           -5.882353
+2020	2	            20	           25.000000
+2021	1	            18	           -10.000000
+2021	2	            15	           -16.666667
+
+
+CONCLUSION:
+EL SEGUNDO SEMESTRE DEL AÑO 2016, EL PRIMERO DEL 2017, EL SEGUNDO DEL 2018, EL PRIMERO Y SEGUNDO DE 2019, EL PRIMERO DEL 2020 Y EL PRIMERO Y SEGUNDO DE 2021 DISMINUYO EL NUMERO DE ACCIDENTES.
+
+Quiero encontrar la comuna mas peligrosa para los peatones:
+
+COMUNA
+1     47
+2     14
+3     17
+4     30
+5     12
+6      8
+7     22
+8     18
+9     25
+10     7
+11     9
+12     7
+13    17
+14    18
+15    20
+
+
+De nuevo la comuna 1 es tristemente célebre.
+
+Hay una gráfica en el archivo EDA que evidencia lo siguiente respecto a las horas de mas accidentes.
+LAS 14, 17, 21 Y 22 HORAS SON LAS MAS PELIGROSAS PARA LOS PEATONES EN LA COMUNA 1
 
 
 
-
+para ver las gráficas por favor revisar el archivo EDA.ipynb
 
 DEL TERCER KPI: 
+
+NO SE CUMPLE, LA TASA OBJETIVO ERA DE 2.57 % Y SE OBTUVO -47.75% HUBO UN INCREMENTO EN EL NUMERO DE ACCIDENTES.
+
 
 
 SE DEFINIO ASI: 'DISMINUCION DEL 5% DE MUERTES DE PEATON RESPECTO DEL AÑO ANTERIOR. DEFINIENDOLO COMO (ACCIDENTES MORTALES DE PEATONES EN EL AÑO ANTERIOR - ACCIDENTES MORTALES AÑO ACTUAL) / (ACCIDENTES MORTALES DE PEATONES EN EL AÑO ANTERIOR) * 100'
