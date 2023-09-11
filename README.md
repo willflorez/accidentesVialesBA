@@ -17,7 +17,7 @@
 </details>
 
 ## Introducción
-En este proyecto individual como parte de la formación de la carrera de Data Science de Henry, desempeño el papel de un Data Analyst, recibo un conjunto de datos de accidentes viales de la ciudad autónoma de Buenos Aires. En los datos hay información acerca de los actores viales involucrados en accidentes de tránsito en el lapso comprendido entre los años 2016 y 2021. 
+En este proyecto individual como parte de la formación de la carrera de Data Science de Henry, desempeño el papel de un Data Analyst, recibo un conjunto de datos de accidentes viales de la ciudad autónoma de Buenos Aires. En los datos hay información acerca de los actores viales involucrados en accidentes de tránsito en el lapso comprendido entre los años 2016 y 2021. El análisis se lleva a cabo estudiando principalmente tres grupos: los que circunscriben el hecho; comuna, posiciones de longitud y latitud, los inherentes a los involucrados; acusado, victima y rol y los estadísticos; sexo de la víctima y edad. Los datos que incluyen el tipo de calle arroja luces para la tom de decisiones en lo que tiene que ver con la implementación de medidad de mitigación de siniestros
 ## Objetivo
 
 1. Analizar detalladamente el conjunto de datos para entender la situación problema de la manera correcta, sin conjeturas propias y ceñirme a la realidad que la información entrega.
@@ -274,7 +274,4 @@ DEL TERCER KPI:
 NO SE CUMPLE, LA TASA OBJETIVO ERA DE 2.57 % Y SE OBTUVO -47.75% HUBO UN INCREMENTO EN EL NUMERO DE ACCIDENTES.
 
 
-
 SE DEFINIO ASI: 'DISMINUCION DEL 5% DE MUERTES DE PEATON RESPECTO DEL AÑO ANTERIOR. DEFINIENDOLO COMO (ACCIDENTES MORTALES DE PEATONES EN EL AÑO ANTERIOR - ACCIDENTES MORTALES AÑO ACTUAL) / (ACCIDENTES MORTALES DE PEATONES EN EL AÑO ANTERIOR) * 100'
-
-
