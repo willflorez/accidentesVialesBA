@@ -79,13 +79,7 @@ RESPECTO A CANTIDAD DE VICTIMAS:
 
 **6. El paso obligado por la curiosidad es conocer numero de víctimas por año, de esta manera:
 
-AAAA	N_VICTIMAS
-0	2016	146
-1	2017	140
-2	2018	149
-3	2019	104
-4	2020	81
-5	2021	97
+![Alt text](image-1.png)
 
 Creo la columna semestre para considerar el primer KPI (reducir en un 10% la tasa de homicidios en siniestros viales de los últimos seis meses, en CABA, en comparación con la tasa de homicidios en siniestros viales del semestre anterior), el número de fallecidos por semestre acá:
 
@@ -215,8 +209,5 @@ DEL TERCER KPI:
 
 
 SE DEFINIO ASI: 'DISMINUCION DEL 5% DE MUERTES DE PEATON RESPECTO DEL AÑO ANTERIOR. DEFINIENDOLO COMO (ACCIDENTES MORTALES DE PEATONES EN EL AÑO ANTERIOR - ACCIDENTES MORTALES AÑO ACTUAL) / (ACCIDENTES MORTALES DE PEATONES EN EL AÑO ANTERIOR) * 100'
-
-
-
 
 
