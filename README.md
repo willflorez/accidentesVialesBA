@@ -10,9 +10,9 @@
     <li><a href="#Objetivo">Objetivo</a></li>
     <li><a href="#Conjunto-de-Tecnologías">Conjunto de Tecnologías</a></li>
     <li><a href="#EDA">EDA</a></li>
-    <li><a href="#KPI-1">KPI 1</a></li>
-    <li><a href="#KPI-2">KPI 2</a></li>
-    <li><a href="#KPI-3">KPI 3</a></li>
+    <li><a href="#KPI1">KPI 1</a></li>
+    <li><a href="#KPI2">KPI 2</a></li>
+    <li><a href="#KPI3">KPI 3</a></li>
 	<li><a href="#Conclusiones">Conclusiones</a></li>
   </ol>
 </details>
