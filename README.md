@@ -70,7 +70,7 @@ min	1.000000	2016.000000	1.000000	1.000000	0.000000	-58.529942	-34.705250
 75%	1.000000	2020.000000	10.000000	23.000000	11.000000	-58.401841	-34.596799
 max	3.000000	2021.000000	12.000000	31.000000	15.000000	-58.356082	-34.534654
 
-## ESTUDIANDO EL PRIMER KPI
+## KPI1
 
 RESPECTO A CANTIDAD DE VICTIMAS:
 
@@ -181,7 +181,7 @@ SE DEFINIO ASI: 'Definimos a la tasa de homicidios en siniestros viales como el 
 POBLACION DE CABA PARA LA FECHA 3.317.463 HABITANTES, SEGUN LA ALCALDIA DE BS AS.
 
 
-## ABORDANDO EL SEGUNDO KPI: 
+## KPI2 
 
 Reducir en un 7% la cantidad de accidentes mortales de motociclistas en el último año, en CABA, respecto al año anterior.
 
@@ -200,7 +200,7 @@ DEL SEGUNDO KPI :  NO SE CUMPLE, LA TASA OBJETIVO ERA DE 33.48 % Y SE OBTUVO -47
 SE DEFINIO ASI:'Definimos a la cantidad de accidentes mortales de motociclistas en siniestros viales como el número absoluto de accidentes fatales en los que estuvieron involucradas víctimas que viajaban en moto en un determinado periodo temporal. Su fórmula para medir la evolución de los accidentes mortales con víctimas en moto es: (Número de accidentes mortales con víctimas en moto en el año anterior - Número de accidentes mortales con víctimas en moto en el año actual) / (Número de accidentes mortales con víctimas en moto en el año anterior) * 100'
 
 
-## ESTUDIANDO EL TERCER KPI: 
+## KPI3 
 Reducir en un 5% la cantidad de accidentes mortales de peatones en el último año, en CABA, respecto al año anterior.
 
 **13. Grafico teniendo en cuenta la cantidad de accidentes donde se involucran peatones en el periodo de tiempo estudiado, hallo el porcentaje de hombres y mujeres fallecidos. Abajo una tabla de numero de peatones fallecidos por semestre cada año:
