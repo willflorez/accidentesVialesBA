@@ -8,16 +8,17 @@
   <ol>  
     <li><a href="#Introducción">Introducción</a></li>
     <li><a href="#Objetivo">Objetivo</a></li>
-    <li><a href="#pila-de-tecnologías">Pila de Tecnologías</a></li>
+    <li><a href="#Conjunto de Tecnologías">Conjunto de Tecnologías</a></li>
     <li><a href="#EDA">EDA</a></li>
-    <li><a href="# ESTUDIANDO EL PRIMER KPI">KPI 1</a></li>
-    <li><a href="#ABORDANDO EL SEGUNDO KPI">KPI 2</a></li>
-    <li><a href="#ESTUDIANDO EL TERCER KPI">KPI 3</a></li>
+    <li><a href="# KPI 1">KPI 1</a></li>
+    <li><a href="#KPI 2">KPI 2</a></li>
+    <li><a href="#KPI 3">KPI 3</a></li>
+	<li><a href="#Conclusiones">Conclusiones</a></li>
   </ol>
 </details>
 
 ## Introducción
-En este proyecto individual como parte de la formación de la carrera de Data Science de Henry, desempeño el papel de un Data Analyst, recibo un conjunto de datos de accidentes viales de la ciudad autónoma de Buenos Aires. En los datos hay información acerca de los actores viales involucrados en accidentes de tránsito en el lapso comprendido entre los años 2016 y 2021. El análisis se lleva a cabo estudiando principalmente tres grupos: los que circunscriben el hecho; comuna, posiciones de longitud y latitud, los inherentes a los involucrados; acusado, victima y rol y los estadísticos; sexo de la víctima y edad. Los datos que incluyen el tipo de calle arroja luces para la toma de decisiones en lo que tiene que ver con la implementación de medidad de mitigación de siniestros
+En este proyecto individual como parte de la formación de la carrera de Data Science de Henry, desempeño el papel de un Data Analyst, recibo un conjunto de datos de accidentes viales de la ciudad autónoma de Buenos Aires. En los datos hay información acerca de los actores viales involucrados en accidentes de tránsito en el lapso comprendido entre los años 2016 y 2021. El análisis se lleva a cabo estudiando principalmente tres grupos: los que circunscriben el hecho; comuna, posiciones de longitud y latitud, los inherentes a los involucrados; acusado, victima y rol y los estadísticos; sexo de la víctima y edad. Los datos que incluyen el tipo de calle arroja luces para la toma de decisiones en lo que tiene que ver con la implementación de medidas de mitigación de siniestros
 ## Objetivo
 
 1. Analizar detalladamente el conjunto de datos para entender la situación problema de la manera correcta, sin conjeturas propias y ceñirme a la realidad que la información entrega.
@@ -36,12 +37,10 @@ En este proyecto individual como parte de la formación de la carrera de Data Sc
 ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
 ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
 ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
 ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white)
-
+![PowerBI](https://img.shields.io/badge/PowerBI-F2C811?style=for-the-badge&logo=Power%20BI&logoColor=white)
 
 ## EDA
 
@@ -275,3 +274,25 @@ NO SE CUMPLE, LA TASA OBJETIVO ERA DE 2.57 % Y SE OBTUVO -47.75% HUBO UN INCREME
 
 
 SE DEFINIO ASI: 'DISMINUCION DEL 5% DE MUERTES DE PEATON RESPECTO DEL AÑO ANTERIOR. DEFINIENDOLO COMO (ACCIDENTES MORTALES DE PEATONES EN EL AÑO ANTERIOR - ACCIDENTES MORTALES AÑO ACTUAL) / (ACCIDENTES MORTALES DE PEATONES EN EL AÑO ANTERIOR) * 100'
+
+##  CONCLUSIONES
+
+1. El conjunto de datos tiene pocos faltantes, nulos, duplicados y solo se elimina una columna de nombre Altura que brindaba información del número de calle donde ocurrió el hecho, con mas de 500 filas sin dato se procede a despreciar. Los datos de otras columnas brinda suficiente información acerca de la ubicación del siniestro.
+
+2. La transformación de tipo de datos que se hace sobre las columnas tipo objeto tiene como finalidad poder graficar y realizar algunas operaciones, como cuando se creo la columna 'dias_al_fallecimiento' con el fin de determinar si la victima moría en el hecho o no. Mas de 500 víctimas fallecen el mismo dia del siniestro.
+
+3. Aplicando describe () por lo menos hay una víctima al día y el promedio de edad es de 41 años.
+
+4. Cuando de ubicación se trata la comuna 1 es el escenario donde más accidentes se presentan con un total de 93 fallecidos, equivalente al 13% del total en el lapso estudiado.
+
+5. El tipo de calle denominado 'Avenida' es donde mas accidentes viales ocurren, con un total de 442 hechos y un altísimo 62% del total.
+
+6. La comuna 1 es donde mas 'Avenidas' hay.
+
+7. Cuando la víctima es 'MOTO' el acusado con mas frecuencia es 'AUTO' con 84 recurrencias, equivalente al 12% del total de hechos.
+
+8. Si la víctima es 'MOTO' el 'ROL' de la persona fallecida es 'CONDUCTOR' con 261 casos que es 36% del total, asi mismo, el 'ACOMPAÑANTE' fallece en el 5% de los casos totales. Los motociclistas son el actor vial mas perjudicado.
+
+9. El segundo actor vial más afectado es el peatón, con 267 accidentes fatales correspondientes al 37% del total de siniestros en CABA.
+
+10. Respecto del total de víctimas que es de 717 fallecidos, hay 166 mujeres, 545 hombres y sin dato de sexo 6 hechos. El promedio de edad de las mujeres fallecidas es de 50 años, el de los hombres es de 40 años. Si la víctima es 'MOTO' el promedio de edad de los hombres muertos es 32 años, el de las mujeres es 30 años. El segundo agente vial mas afectado es el peatón con 267 casos. De los peatones muertos 103 casos involucraron mujeres con un promedio de edad de 51 años que es el mismo promedio de edad de los hombres, pero con 163 casos.
