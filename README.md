@@ -291,8 +291,8 @@ SE DEFINIO ASI: 'DISMINUCION DEL 5% DE MUERTES DE PEATON RESPECTO DEL AÑO ANTER
 
 7. Cuando la víctima es 'MOTO' el acusado con mas frecuencia es 'AUTO' con 84 recurrencias, equivalente al 12% del total de hechos.
 
-8. Si la víctima es 'MOTO' el 'ROL' de la persona fallecida es 'CONDUCTOR' con 261 casos que es 36% del total, asi mismo, el 'ACOMPAÑANTE' fallece en el 5% de los casos totales. Los motociclistas son el actor vial mas perjudicado.
+8. Si la víctima es 'MOTO' y el 'ROL' de la persona fallecida es 'CONDUCTOR' aparecen 261 casos que es 36% del total, asi mismo, el 'ACOMPAÑANTE' fallece en el 5% de los casos totales. Los motociclistas son el actor vial mas perjudicado.
 
 9. El segundo actor vial más afectado es el peatón, con 267 accidentes fatales correspondientes al 37% del total de siniestros en CABA.
 
-10. Respecto del total de víctimas que es de 717 fallecidos, hay 166 mujeres, 545 hombres y sin dato de sexo 6 hechos. El promedio de edad de las mujeres fallecidas es de 50 años, el de los hombres es de 40 años. Si la víctima es 'MOTO' el promedio de edad de los hombres muertos es 32 años, el de las mujeres es 30 años. El segundo agente vial mas afectado es el peatón con 267 casos. De los peatones muertos 103 casos involucraron mujeres con un promedio de edad de 51 años que es el mismo promedio de edad de los hombres, pero con 163 casos.
+10. Respecto del total de víctimas que es de 717 fallecidos, hay 166 mujeres, 545 hombres y sin dato de sexo 6 hechos. El promedio de edad de las mujeres fallecidas es de 50 años, el de los hombres es de 40 años. Si la víctima es 'MOTO' el promedio de edad de los hombres muertos es 32 años, el de las mujeres es 30 años. De los peatones muertos 103 casos involucraron mujeres con un promedio de edad de 51 años que es el mismo promedio de edad de los hombres, pero con 163 casos. La mayoría mueren en las avenidas con un total de 184 casos.
